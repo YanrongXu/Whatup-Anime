@@ -84,3 +84,33 @@ input[type="submit"]:hover {
   width: 40%;
   min-width: 170px;
 }
+
+.anime {
+  position: relative;
+}
+
+.anime .image-container .description {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.anime .image-container:hover .description {
+ 
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7; 
+}
+
+.button {
+  background-color: black;
+  color: aqua;
+}

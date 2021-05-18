@@ -4,6 +4,7 @@ import Anime from './Anime';
 import Search from './Search'
 import react, { useState, useEffect } from 'react';
 
+
 const ANIME_API = 'https://api.jikan.moe/v3'
 
 function App() {
