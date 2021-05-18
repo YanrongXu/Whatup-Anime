@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  max-width: 1200px;
+}
+
+.header {
+  background-color: #282c34;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 694px) and (max-width: 915px) {
+  .anime {
+    max-width: 33%;
+  }
+}
+
+@media screen and (min-width: 652px) and (max-width: 693px) {
+  .anime {
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 651px) {
+  .anime {
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
+.header h2 {
+  margin: 0;
+}
+.animes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.anime {
+  padding: 5px 25px 10px 25px;
+  width: 25%;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+input[type="submit"] {
+  padding: 5px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  width: 80px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+  background-color: #282c34;
+  color: antiquewhite;
+}
+
+
+.search>input[type="text"] {
+  width: 40%;
+  min-width: 170px;
+}
