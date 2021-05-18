@@ -13,7 +13,7 @@ const Anime = ({anime}) => {
                     src={poster} />
                 <div className='description'>
                     <div>{anime.synopsis}</div>
-                    <a href={anime.url} target="_blank"><button className='button'>More Info</button></a>
+                    <a href={anime.url} target="_blank" rel="noreferrer"><button className='button'>More Info</button></a>
                 </div>
             </div>
         </div>
