@@ -5,3 +5,10 @@
 * {
   box-sizing: border-box;
 }
+
+.animes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 20px;
+}
